@@ -1402,7 +1402,7 @@ p {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: linear-gradient(to right, rgba(74, 162, 249, 0.6) 0%, #2404f7 100%); }
+      background: linear-gradient(to right, rgba(74, 161, 249, 0.231) 0%, #2404f788 100%); }
     .carousel-section-wrapper .carousel-section.carousel-item .carousel-content .section-title h2 {
       margin-bottom: 25px; }
     .carousel-section-wrapper .carousel-section.carousel-item .carousel-content .section-title p {
@@ -1471,7 +1471,7 @@ p {
   .client-logo-section .client-logo-wrapper .client-logo-carousel .client-logo img {
     max-width: 220px;
     width: 100%;
-    opacity: .3;
+    opacity: 1;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
