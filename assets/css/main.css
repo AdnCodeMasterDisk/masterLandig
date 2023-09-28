@@ -1402,7 +1402,7 @@ p {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: linear-gradient(to right, rgba(74, 161, 249, 0.231) 0%, #2404f788 100%); }
+      }
     .carousel-section-wrapper .carousel-section.carousel-item .carousel-content .section-title h2 {
       margin-bottom: 25px; }
     .carousel-section-wrapper .carousel-section.carousel-item .carousel-content .section-title p {
@@ -2083,3 +2083,21 @@ p {
       .footer-social-links ul li a:hover {
         background: linear-gradient(#0c62f5 0%, #6f58e8 100%);
         color: #fff; }
+
+.banner{
+  background-image: url(../img/bg/banner.png);
+  width: 100%;
+  padding-bottom: 40%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px){
+  .banner{
+    background-image: url(../img/bg/BANNERMOVILE.png);
+    width: 100%;
+    padding-bottom: 150%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
